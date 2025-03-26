@@ -1,61 +1,101 @@
 ticket_id,description,processed_text,hdbscan_cluster
-1,Unable to connect to VPN from home.,unable connect vpn home,2
-2,Outlook crashes every time I open an email with an attachment.,outlook crash every time open email attachment,-1
-3,My laptop battery only lasts 20 minutes after a full charge.,laptop battery last minute full charge,3
-4,"Teams isn't picking up my microphone, even though it's working in other apps.",team pick microphone even though work apps,0
-5,Wi-Fi disconnects randomly throughout the day. Restarting doesn't help.,wifi disconnect randomly throughout day restart,-1
-6,Blue screen appeared during a presentation and the system rebooted.,blue screen appear presentation system reboot,-1
-7,Keyboard keys are sticking and occasionally not registering.,keyboard key stick occasionally register,4
-8,"After installing the latest Windows update, my mouse is lagging badly.",instal late window update mouse lag badly,-1
-9,Can't print from my laptop to the office printer.,print laptop office printer,3
-10,System is extremely slow when running multiple browser tabs.,system extremely slow run multiple browser tab,4
-11,External monitor won't detect unless I reboot the machine.,external monitor detect unless reboot machine,-1
-12,I forgot my admin password and can't install required tools.,forgot admin password install required tool,-1
-13,Frequent 'access denied' errors when trying to reach shared folders.,frequent access deny error try reach share folder,-1
-14,The webcam flickers on and off during Zoom meetings.,webcam flicker zoom meeting,4
-15,Audio cuts in and out during Teams calls.,audio cut team call,0
-16,Receiving popup that says 'License expired' for Microsoft Word.,receive popup say license expire microsoft word,-1
-17,Laptop keeps trying to restart and gets stuck on the loading screen.,laptop keep try restart get stuck loading screen,-1
-18,Docking station no longer recognizes any USB devices.,dock station longer recognize usb device,-1
-19,Intranet portal says 'Service Unavailable' since yesterday.,intranet portal say service unavailable since yesterday,-1
-20,Unable to install new software due to security policy restrictions.,unable install new software due security policy restriction,2
-21,My computer won't detect the Bluetooth mouse anymore.,computer detect bluetooth mouse anymore,-1
-22,Outlook calendar won't sync with mobile device.,outlook calendar sync mobile device,-1
-23,Chrome is completely unresponsive after today's system update.,chrome completely unresponsive today system update,-1
-24,My screen resolution resets every time I plug into the projector.,screen resolution reset every time plug projector,-1
-25,I lost access to Jira and Confluence after changing departments.,lose access jira confluence change department,-1
-26,Laptop randomly restarts without any error message.,laptop randomly restarts without error message,-1
-27,New hires can't log into their email accounts.,new hire log email account,-1
-28,Wi-Fi works for others but not on my device.,wifi work others device,-1
-29,Teams notifications are delayed or not showing up at all.,team notification delay show,0
-30,Outlook search is broken and can't find recent emails.,outlook search broken find recent email,-1
-31,One of the rack-mounted servers is overheating and triggering alarms.,one rackmounted server overheat trigger alarm,1
-32,Power redundancy failed during scheduled maintenance last night.,power redundancy fail schedule maintenance last night,-1
-33,Fiber connection to Rack 3B has severe packet loss.,fiber connection rack b severe packet loss,2
-34,Received multiple drive failure warnings on storage array 7.,receive multiple drive failure warning storage array,4
-35,The UPS in Zone 2 failed its self-test and may need battery replacement.,ups zone fail selftest may need battery replacement,3
-36,Cooling system in the west aisle isn’t maintaining optimal temperature.,cool system west aisle maintain optimal temperature,-1
-37,Unable to access the KVM console for Rack 5A.,unable access kvm console rack,2
-38,Temperature spikes occurred overnight in Pod 4.,temperature spike occur overnight pod,-1
-39,Unexpected power cycle reported on blade server 12C.,unexpected power cycle report blade server c,1
-40,SNMP alerts for switch 48F show high CPU utilization.,snmp alert switch f show high cpu utilization,-1
-41,The monitoring dashboard is not displaying metrics from the east power bus.,monitor dashboard display metric east power bus,-1
-42,Aisle containment door in the north section isn’t closing completely.,aisle containment door north section closing completely,-1
-43,One of the environmental sensors in Pod 2 is reporting false humidity readings.,one environmental sensor pod report false humidity reading,4
-44,"Several patch panels are mislabeled, causing confusion during audits.",several patch panel mislabeled cause confusion audit,-1
-45,We had a short network outage affecting VLAN 105 traffic.,short network outage affect vlan traffic,4
-46,The access control system for cold aisle entry is malfunctioning.,access control system cold aisle entry malfunction,-1
-47,Ethernet cables in Rack 9A are tangled and obstructing airflow.,ethernet cable rack tangled obstructing airflow,-1
-48,Two servers failed to reboot after the firmware update last night.,two server fail reboot firmware update last night,-1
-49,The PDUs in Rack 6C are not reporting power draw to the dashboard.,pdus rack c report power draw dashboard,1
-50,Blower fan in CRAC unit 3 is making an abnormal noise.,blower fan crac unit make abnormal noise,4
-51,Patch cable from router 12 to firewall A is physically damaged.,patch cable router firewall physically damage,-1
-52,Raised floor tile near battery room is cracked and unstable.,raise floor tile near battery room crack unstable,3
-53,Access logs show unauthorized swipe attempt at server cage entry.,access log show unauthorized swipe attempt server cage entry,-1
-54,Backup generator test failed to start during weekly run.,backup generator test fail start weekly run,-1
-55,Firewall management interface is unreachable from the secure zone.,firewall management interface unreachable secure zone,-1
-56,Remote hands team reported flickering lights in cold aisle 7.,remote hand report flickering light cold aisle,-1
-57,BMS system lost sync with humidity sensors for Pod 5.,bm system lose sync humidity sensor pod,-1
-58,Ticketing system is not receiving SNMP trap alerts from servers.,ticket system receive snmp trap alert server,-1
-59,Cooling vent in Rack 2D is partially obstructed.,cool vent rack partially obstruct,-1
-60,Airflow sensors behind Row 8 are not calibrated and reading zero.,airflow sensor behind row calibrate reading zero,-1
+1,VPN disconnects randomly during video calls. It started after the last system update.,vpn disconnect randomly video call start last system update,-1
+2,My laptop battery dies within 30 minutes even after a full charge.,laptop battery dy within minute even full charge,-1
+3,Outlook keeps freezing when I try to search for emails.,outlook keep freeze try search email,4
+4,Wi-Fi drops every time I join a Teams meeting.,wifi drop every time join team meeting,-1
+5,Laptop won’t connect to the company network. Tried restarting and updating drivers.,laptop connect company network try restart update driver,-1
+6,Teams notifications don’t show up on my desktop until hours later.,team notification show desktop hour later,-1
+7,Unable to install Zoom due to admin restrictions.,unable install zoom due admin restriction,4
+8,My external keyboard stopped working after plugging into the docking station.,external keyboard stop work plug dock station,6
+9,Outlook calendar events are missing after syncing with mobile.,outlook calendar event miss sync mobile,-1
+10,System is extremely slow after the last antivirus update.,system extremely slow last antivirus update,7
+11,Requesting admin access to install project-specific tools.,request admin access install projectspecific tool,-1
+12,The mouse pointer lags significantly when connected to a second monitor.,mouse pointer lag significantly connect second monitor,1
+13,Can’t access the employee portal after the recent password reset.,access employee portal recent password reset,-1
+14,Outlook search bar doesn't return results from the last 2 weeks.,outlook search bar return result last week,-1
+15,Bluetooth audio devices disconnect whenever I open Teams.,bluetooth audio device disconnect whenever open team,-1
+16,Monitor flickers when switching between HDMI and DisplayPort.,monitor flicker switch hdmi displayport,-1
+17,Software update failed and now the laptop boots to a recovery screen.,software update fail laptop boot recovery screen,7
+18,VPN drops every hour on the dot. Possible DHCP lease issue?,vpn drop every hour dot possible dhcp lease,-1
+19,Need assistance setting up my dual-monitor workspace.,need assistance set dualmonitor workspace,4
+20,Microsoft Word keeps crashing when I try to open older documents.,microsoft word keep crash try open old document,-1
+21,Screen resolution resets after connecting to the projector in Room B.,screen resolution reset connect projector room b,-1
+22,The system fan runs loud even when the laptop is idle.,system fan run loud even laptop idle,-1
+23,Outlook flags safe emails as junk. I need rules reviewed.,outlook flag safe email junk need rule review,4
+24,"My webcam won’t work in Teams, but works fine in other apps.",webcam work team work fine apps,6
+25,Frequent blue screens since last Windows update. Happens during Zoom.,frequent blue screen since last window update happens zoom,10
+26,Password reset doesn’t sync across systems. AD mismatch?,password reset sync across system ad mismatch,-1
+27,Printer in room 104 shows 'offline' but it’s physically on.,printer room show offline physically,-1
+28,Can’t access company VPN on mobile but works fine on desktop.,access company vpn mobile work fine desktop,6
+29,Mouse clicks lag behind movement when screen sharing.,mouse click lag behind movement screen share,-1
+30,Every restart brings up the 'Preparing Windows' screen for 5+ minutes.,every restart bring prepare window screen minute,10
+31,Office tools randomly log me out every few hours. Very disruptive.,office tool randomly log every hour disruptive,-1
+32,Outlook rules were wiped out after sync with phone.,outlook rule wipe sync phone,-1
+33,Laptop randomly shuts down when unplugged.,laptop randomly shuts unplug,-1
+34,The password manager doesn’t open after login. Possibly blocked?,password manager open login possibly block,-1
+35,The IT support tool doesn't launch from the start menu.,support tool launch start menu,-1
+36,Cannot run Python scripts because execution policy is restricted.,run python scripts execution policy restrict,-1
+37,Second monitor not detected until I replug it every time.,second monitor detect replug every time,1
+38,Need to install Adobe Acrobat Pro. Install fails silently.,need install adobe acrobat pro install fail silently,4
+39,Microsoft Teams call quality is poor on VPN but fine otherwise.,microsoft team call quality poor vpn fine otherwise,-1
+40,Getting a 403 error on the internal reporting tool.,get error internal reporting tool,-1
+41,Outlook calendar fails to send invites intermittently.,outlook calendar fail send invite intermittently,9
+42,Teams background blur isn’t working anymore. Reinstall didn’t help.,team background blur work anymore reinstall,6
+43,Internal wiki page shows 404 from home Wi-Fi.,internal wiki page show home wifi,-1
+44,My account has lost access to shared folders from my old team.,account lose access share folder old,-1
+45,"After Windows lock screen, all apps re-open resized.",window lock screen apps reopen resize,10
+46,The trackpad skips around and ignores inputs sometimes.,trackpad skip around ignores input sometimes,9
+47,Zoom keeps asking for permissions every launch.,zoom keep ask permission every launch,-1
+48,Request to downgrade from Windows 11 to 10 due to compatibility.,request downgrade window due compatibility,-1
+49,Wi-Fi asks for credentials every morning. Should stay remembered.,wifi ask credential every morning stay remember,-1
+50,Need IT to install SSH client for remote server access.,need install ssh client remote server access,4
+51,Cooling unit in Pod 4 is not maintaining proper airflow. Servers are reporting high temperature warnings.,cool unit pod maintain proper airflow server report high temperature warning,-1
+52,UPS in rack 3C failed its battery test this morning.,ups rack c fail battery test morning,-1
+53,KVM switch isn't responding when trying to access servers in row B.,kvm switch respond try access server row b,-1
+54,CRAC unit 2 is making a high-pitched whine. Could be a fan issue.,crac unit make highpitched whine could fan,0
+55,Environmental sensor in the east aisle is reporting false humidity spikes.,environmental sensor east aisle reporting false humidity spike,-1
+56,Access logs show failed badge swipes near the backup generator room.,access log show failed badge swipe near backup generator room,-1
+57,Fiber uplink between Pod 1 and 2 dropped for 10 minutes overnight.,fiber uplink pod drop minute overnight,-1
+58,Temperature data from sensors isn't syncing with the monitoring dashboard.,temperature data sensor sync monitoring dashboard,-1
+59,Raised floor tile near Rack 4D is cracked and loose.,raise floor tile near rack crack loose,-1
+60,Access panel on the north cage door doesn’t latch properly.,access panel north cage door latch properly,-1
+61,Switch 18A is showing high CPU usage and dropped packets.,switch show high cpu usage drop packet,-1
+62,Cabinet power draw is over threshold for 2nd straight week.,cabinet power draw threshold nd straight week,-1
+63,Server in rack 6B failed firmware update and won't boot.,server rack b fail firmware update boot,8
+64,Security camera feed from Room C is flickering badly.,security camera feed room c flicker badly,-1
+65,Humidity spiked at 3am — possibly a sensor calibration issue?,humidity spike — possibly sensor calibration,-1
+66,Blower fan in CRAC unit 1 is showing inconsistent RPMs.,blower fan crac unit show inconsistent rpm,0
+67,Syslog server dropped events between 2–4am with no alerts triggered.,syslog server drop event –am alert trigger,-1
+68,Access to the cable tray blocked by equipment left from last maintenance.,access cable tray block equipment leave last maintenance,-1
+69,Power redundancy failed to switch over cleanly during test.,power redundancy fail switch cleanly test,-1
+70,Noisy coil vibration from transformer in Zone 3.,noisy coil vibration transformer zone,4
+71,The BMS shows error 28 on the chiller line but no physical fault found.,bm show error chiller line physical fault find,-1
+72,Grounding strap missing on newly installed PDU in row E.,ground strap miss newly instal pdu row e,-1
+73,Servers in Pod 2 restarted unexpectedly. UPS transfer?,server pod restart unexpectedly ups transfer,-1
+74,Leak detection cable triggered false alarm last night.,leak detection cable trigger false alarm last night,-1
+75,No temperature readings from cold aisle 5. Might be a disconnected probe.,temperature reading cold aisle might disconnect probe,3
+76,Remote hands reported a faulty switch but logs are normal.,remote hand report faulty switch log normal,-1
+77,Cluster node 7 is unreachable after last patch window.,cluster node unreachable last patch window,-1
+78,Broken LCD panel on the door of cabinet 12A.,broken lcd panel door cabinet,5
+79,Loud rattling from vent duct above rack 3F.,loud rattle vent duct rack f,-1
+80,Server fans spin to max after startup but don’t throttle down.,server fan spin max startup throttle,-1
+81,Patch cables behind racks are tangled and obstructing airflow.,patch cable behind rack tangle obstruct airflow,-1
+82,PDU outlet is stuck in off state despite control signal being sent.,pdu outlet stick state despite control signal sent,5
+83,Maintenance team found heat pocket in left side of Pod 3.,maintenance find heat pocket leave side pod,-1
+84,SNMP polling timeout on firewall 2 after policy update.,snmp poll timeout firewall policy update,7
+85,Backup generator failed to start during last test run.,backup generator fail start last test run,-1
+86,APC dashboard shows no data for several battery packs.,apc dashboard show data several battery pack,-1
+87,Asset tag mismatch detected between rack label and inventory system.,asset tag mismatch detect rack label inventory system,-1
+88,Switch firmware is out-of-date and failing compliance checks.,switch firmware outofdate fail compliance check,8
+89,Power cabling to rack 9C is routed across cold aisle incorrectly.,power cable rack c rout across cold aisle incorrectly,3
+90,CRAC unit maintenance reminder overdue. Unit hasn't been serviced since Q2.,crac unit maintenance reminder overdue unit service since q,0
+91,Air filter replacement needed in Zone A based on airflow drop.,air filter replacement need zone base airflow drop,4
+92,Cabinet door sensor not registering open/close state correctly.,cabinet door sensor register openclose state correctly,5
+93,Server ID tags are peeling off in high humidity zone.,server id tag peel high humidity zone,-1
+94,The chiller loop pressure fluctuates every 15 minutes.,chiller loop pressure fluctuate every minute,-1
+95,System showing phantom power draw on circuit B.,system show phantom power draw circuit b,2
+96,Blower in Pod 6 screeches loudly under load.,blower pod screech loudly load,-1
+97,Dehumidifier in cold aisle 8 is cycling too frequently.,dehumidifier cold aisle cycling frequently,3
+98,Leak alarm triggered twice with no physical leak found.,leak alarm trigger twice physical leak find,-1
+99,Blade server in rack 10A has dim power LED and doesn’t POST.,blade server rack dim power lead post,2
+100,Unexpected reboot on node 12B. Suspected thermal shutdown.,unexpected reboot node b suspect thermal shutdown,-1
